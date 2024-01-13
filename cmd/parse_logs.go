@@ -237,7 +237,7 @@ func isEmailid(s string) bool {
 	n := len(s)
 
 	// 检查字符串是否为空
-	if n != 13 {
+	if n < 10 || n > 20 {
 		return false
 	}
 

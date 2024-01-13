@@ -29,7 +29,7 @@ func cmdMain(cmd *cobra.Command, args []string) {
 func parseFlag(cmd *cobra.Command, args []string) {
 	// output version
 	if version {
-		fmt.Println("1.0.1")
+		fmt.Println("1.0.3")
 		os.Exit(0)
 	}
 
